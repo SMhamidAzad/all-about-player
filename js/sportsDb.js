@@ -18,10 +18,10 @@ const displayPlayer = players =>{
     div.classList.add('card');
     div.innerHTML =`
     <div class="row g-0 mt-5">
-    <div class="col-md-4">
+    <div class="col-lg-4 col-12">
         <img src="${players.strCutout}" class="img-fluid rounded-start" alt="...">
     </div>
-   <div class="col-md-8">
+   <div class="col-lg-8 col-12">
       <div class="card-body">
          <h2 class="card-title text-danger">${players.strPlayer}</h2>
           <p class="card-text">${players.strDescriptionEN.slice(0,1200)}</p>
